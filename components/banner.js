@@ -5,7 +5,7 @@ const Banner = function() {
   return (
     <Header>
       <VectoredImage id="prefix-img" src="TinyVetch" />
-      <BannerMessage>GET A FREE CHECK-UP FOR NEW PATIENTS!</BannerMessage>
+      <BannerMessage>get a free check-up for new patients!</BannerMessage>
       <VectoredImage id="postfix-img" src="SandLily" />
     </Header>
   )
