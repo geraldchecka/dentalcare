@@ -20,7 +20,7 @@ export const Header = styled.header`
 `;
 
 export const Image = styled.img`
-  width: 24px;
+  width: 20px;
   height: 30px;
 `;
 
@@ -34,7 +34,6 @@ export const BannerMessage = styled.div`
   color: rgb(22, 22, 22);
   font-family: "Open Sans", "Arimo", sans-serif;
   font-size: 16px;
-  height: 24px;
   letter-spacing: 2px;
   line-height: 24px;
   margin-block-end: 0px;
@@ -44,6 +43,7 @@ export const BannerMessage = styled.div`
   margin-bottom: 0px;
   margin-top: 0px;
   overflow-wrap: break-word;
+  line-height: 1.5;
   text-decoration-thickness: auto;
   text-size-adjust: 100%;
   text-transform: uppercase;
