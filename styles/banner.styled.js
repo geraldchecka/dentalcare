@@ -51,6 +51,7 @@ export const MainNav = styled.nav`
   @media (min-width: 1024px) {
     display: block;
   }
+  margin-bottom: 24px;
 `;
 
 export const NavListGroup = styled.ul`
@@ -483,5 +484,16 @@ export const FooterSection = styled.section`
   font-family: 'Open Sans', 'Arimo', sans-serif;
   @media (min-width: 768px) {
     font-size: 12px;
+  }
+`;
+
+export const HR = styled.hr`
+  display: none;
+  @media (min-width: 1024px) {
+    display: block;
+    opacity: 0.25;
+    border-color: rgb(88, 170, 176);
+    width: 81%;
+    margin: auto;
   }
 `;
