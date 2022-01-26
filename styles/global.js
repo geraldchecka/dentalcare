@@ -32,17 +32,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
   }
-  nav {
-    font-size: 16px;
-    font-family: 'Playfair_Display', sans-serif;
-  }
-  // theme
-    // fonts
-    // font-spacing
-    // letter spacing
-    // line-height
-    // aliasing smoothing
-    // font-size
 `;
 
 export default GlobalStyle;
