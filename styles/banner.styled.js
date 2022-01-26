@@ -67,6 +67,9 @@ export const NavListItem = styled.li`
   white-space: nowrap;
   padding: 6px 6px 6px 32px;
   letter-spacing: 3px;
+  &:hover {
+    color: rgb(56, 123, 127);
+  }
   ${({noPadding}) => noPadding ? 'padding-left: 0px;' : ""}
 `;
 
