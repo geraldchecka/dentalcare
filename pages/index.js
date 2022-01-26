@@ -3,7 +3,7 @@ import GlobalStyle from '../styles/global';
 import Banner from '../components/banner';
 import Header from '../components/header';
 import { SectionGroup, SectionItem, IntroBanner, IntroBannerImageGroup, IntroBannerImage, IntroBannerTextBlock, IntroBannerImageBlock, IntroBlock, IntroHeader, IntroCards, IntroCard, IntroCardTitle,
-  IntroCardDescription, IntroCardBlock, CardImageBlock, ServicesCard } from '../styles/banner.styled';
+  IntroCardDescription, IntroCardBlock, CardImageBlock, FooterBlock, FooterSection, IntroCardButton, ServicesCard } from '../styles/banner.styled';
 // handling when JS is disabled in browser
 
 export default function Hello() {
@@ -68,8 +68,10 @@ export default function Hello() {
                     <img src="/rootcanal.jpeg" />
                   </CardImageBlock>
                   <IntroCardTitle autoHeight>Single Sitting Root Canal</IntroCardTitle>
-                  <IntroCardDescription>We work as a team, dedicated to improving and maintaining your oral health. Whatever your dental needs, you will be in great hands.</IntroCardDescription>
-                  {/* button goes here */}
+                  <IntroCardDescription hasBottomMargin>We work as a team, dedicated to improving and maintaining your oral health. Whatever your dental needs, you will be in great hands.</IntroCardDescription>
+                  <IntroCardButton>
+                    <a href='/rootcanal'>services</a>
+                  </IntroCardButton>
                 </IntroCardBlock>
               </IntroCard>
               <IntroCard>
@@ -78,8 +80,10 @@ export default function Hello() {
                     <img src="/dental_implants_small.jpeg" />
                   </CardImageBlock>
                   <IntroCardTitle autoHeight>Dental Implants</IntroCardTitle>
-                  <IntroCardDescription>Our team has the professional experience to realize that there is no such thing as one-size-fits-all approach to treatment.</IntroCardDescription>
-                  {/* button goes here */}
+                  <IntroCardDescription hasBottomMargin>Our team has the professional experience to realize that there is no such thing as one-size-fits-all approach to treatment.</IntroCardDescription>
+                  <IntroCardButton>
+                    <a href='/dental-implants'>services</a>
+                  </IntroCardButton>
                 </IntroCardBlock>
               </IntroCard>
               <IntroCard>
@@ -88,8 +92,10 @@ export default function Hello() {
                     <img src="/view_all_services.jpeg" />
                   </CardImageBlock>
                   <IntroCardTitle autoHeight>View All Services</IntroCardTitle>
-                  <IntroCardDescription>By using the cutting edge research and tools, we make sure your time with us is as comfortable and stress-free as possible.</IntroCardDescription>
-                  {/* button goes here */}
+                  <IntroCardDescription hasBottomMargin>By using the cutting edge research and tools, we make sure your time with us is as comfortable and stress-free as possible.</IntroCardDescription>
+                  <IntroCardButton>
+                    <a href='/all-services'>services</a>
+                  </IntroCardButton>
                 </IntroCardBlock>
               </IntroCard>
             </IntroCards>
@@ -97,10 +103,10 @@ export default function Hello() {
         </SectionItem>
         <SectionItem>Reviews</SectionItem>
       </SectionGroup>
-      <footer>
-        <section>Timings</section>
-        <section>Statutory Copyright footnote</section>
-      </footer>
+      <FooterBlock>
+        <FooterSection>COPYRIGHT © 2021 SRI SUMUKHA DENTAL CARE - ALL RIGHTS RESERVED.</FooterSection>
+        <FooterSection>HOURS: MON-SAT: 10:30AM- 8:30PM, SUN:10AM-2PM</FooterSection>
+      </FooterBlock>
     </>
   )
 }
