@@ -1,3 +1,11 @@
-export default function SingleSitting() {
-  return <h1>Our Goal</h1>
+import Layout from '../components/layout';
+// import Link from 'next/link';
+
+export default function OurGoal() {
+  return (
+    <>
+      <Layout />
+      <p>Our Goal</p>
+    </>
+  );
 }

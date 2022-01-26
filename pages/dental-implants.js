@@ -1,3 +1,11 @@
+import Layout from '../components/layout';
+// import Link from 'next/link';
+
 export default function DentalImplants() {
-  return <h1>Dental Implants</h1>
+  return (
+    <>
+      <Layout />
+      <p>Dental Implants</p>
+    </>
+  );
 }

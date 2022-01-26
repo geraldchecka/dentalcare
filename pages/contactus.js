@@ -1,11 +1,10 @@
 import Layout from '../components/layout';
-// import Link from 'next/link';
 
-export default function RootCanal() {
+export default function ContactUs() {
   return (
     <>
       <Layout />
-      <p>Our Team</p>
+      <p>Contact US</p>
     </>
   );
 }
