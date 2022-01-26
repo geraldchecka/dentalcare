@@ -364,6 +364,7 @@ export const IntroCardDescription = styled.div`
   overflow-wrap: break-word;
   padding-left: 32px;
   padding-right: 32px;
+  ${({hasBottomMargin}) => hasBottomMargin ? 'margin-bottom: 24px;' : ''}
 `;
 
 export const IntroCardBlock = styled.div`
@@ -376,6 +377,40 @@ export const IntroCardBlock = styled.div`
   align-items: center;
   justify-content: flex-start;
   width: 100%;
+`;
+
+export const IntroCardButton = styled.div`
+  font-size: 14px;
+  @media (min-width: 768px) {
+    width: auto;
+  }
+  > a {
+    cursor: pointer;
+    background-color: rgb(112, 214, 221);
+    position: relative;
+    border-radius: 48px;
+    min-height: 56px;
+    display: inline-flex;
+    border-style: none;
+    margin-right: 32px;
+    margin-left: 32px;
+    transition: all 0.3s;
+    text-shadow: none;
+    align-self: auto;
+    font-weight: 700;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    letter-spacing: 0.214em;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
 `;
 
 export const CardImageBlock = styled.figure`
@@ -398,6 +433,9 @@ export const CardImageBlock = styled.figure`
     max-width: 100%;
   }
   > img {
+    @media (min-width: 768px) {
+      width: 100%;
+    }
     @media (min-width: 1024px) {
       width: 365px;
     }
@@ -407,5 +445,40 @@ export const CardImageBlock = styled.figure`
     @media (max-width: 767px) {
       height: calc((100vw - 48px)/1);
     }
+  }
+`;
+
+export const FooterBlock = styled.footer`
+  font-family: 'Open Sans', 'Arimo', sans-serif;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 56px;
+  padding-top: 56px;
+  padding-right: 24px;
+  padding-left: 24px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  @media (max-width: 767px) {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+`;
+
+export const FooterSection = styled.section`
+  color: rgb(89, 89, 89);
+  letter-spacing: 0.083em;
+  line-height: 1.5;
+  margin-top: 0;
+  overflow-wrap: break-word;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  font-family: 'Open Sans', 'Arimo', sans-serif;
+  @media (min-width: 768px) {
+    font-size: 12px;
   }
 `;
