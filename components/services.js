@@ -21,8 +21,8 @@ export default function Services() {
                   <IntroCardTitle autoHeight>Single Sitting Root Canal</IntroCardTitle>
                   <IntroCardDescription hasBottomMargin>We work as a team, dedicated to improving and maintaining your oral health. Whatever your dental needs, you will be in great hands.</IntroCardDescription>
                   <IntroCardButton>
-                    <Link href='/rootcanal'>
-                      <a>services</a>
+                    <Link href='/rootcanal' passHref>
+                      <a>learn more</a>
                     </Link>
                   </IntroCardButton>
                 </IntroCardBlock>
@@ -35,8 +35,8 @@ export default function Services() {
                   <IntroCardTitle autoHeight>Dental Implants</IntroCardTitle>
                   <IntroCardDescription hasBottomMargin>Our team has the professional experience to realize that there is no such thing as one-size-fits-all approach to treatment.</IntroCardDescription>
                   <IntroCardButton>
-                    <Link href='/dental-implants'>
-                      <a>services</a>
+                    <Link href='/dental-implants' passHref>
+                      <a>learn more</a>
                     </Link>
                   </IntroCardButton>
                 </IntroCardBlock>

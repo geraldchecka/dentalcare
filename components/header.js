@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import { BlockHeader, MainBlock, HamburgerMenu, MainLogo, MainNav, NavListGroup, NavListItem } from '../styles/banner.styled';
+
 const SvgComponent = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -25,11 +27,36 @@ const Header = function({ src, id }) {
       </MainBlock>
       <MainNav>
         <NavListGroup>
-          <NavListItem noPadding>Home</NavListItem>
-          <NavListItem>Services</NavListItem>
-          <NavListItem>Make an appointment</NavListItem>
-          <NavListItem>About</NavListItem>
-          <NavListItem>Contact Us</NavListItem>
+          <NavListItem noPadding>
+            <Link href='/' passHref>
+              <a>home</a>
+            </Link>
+          </NavListItem>
+          <NavListItem>
+            <Link href='/all-services' passHref>
+              <a>Services</a>
+            </Link>
+          </NavListItem>
+          <NavListItem>
+            <Link href='/appointment' passHref>
+              <a>Make an appointment</a>
+            </Link>
+          </NavListItem>
+          <NavListItem>
+            <Link href='/our-team' passHref>
+              <a>Our Team</a>
+            </Link>
+          </NavListItem>
+          <NavListItem>
+            <Link href='/our-goal' passHref>
+              <a>Our Goal</a>
+            </Link>
+          </NavListItem>
+          <NavListItem>
+            <Link href='/contactus' passHref>
+              <a>Contact Us</a>
+            </Link>
+          </NavListItem>
         </NavListGroup>
       </MainNav>
     </BlockHeader>
