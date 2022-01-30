@@ -22,7 +22,7 @@ const Header = function({ src, id }) {
           <SvgComponent color="rgb(75, 148, 153)" width={18} />
         </HamburgerMenu> */}
         <MainLogo>
-          <img src="/logo.png" alt="Sri Sumukha Dental Care" />
+          <img src="/mainlogo.jpeg" alt="Sri Sumukha Dental Care" />
         </MainLogo>
       </MainBlock>
       <MainNav>
