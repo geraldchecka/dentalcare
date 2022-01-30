@@ -373,6 +373,7 @@ export const IntroCardDescription = styled.div`
 
 export const IntroCardBlock = styled.div`
   ${({ withImage }) => withImage ? 'padding: 0 0 32px 0;' : 'padding: 32px 0;'}
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   background-color: rgb(220, 249, 252);
   display: flex;
   flex-direction: column;
