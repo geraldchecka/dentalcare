@@ -47,7 +47,7 @@ export const MainNav = styled.nav`
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
-  display: none;
+  display: block;
   @media (min-width: 1024px) {
     display: block;
   }
@@ -55,10 +55,16 @@ export const MainNav = styled.nav`
 `;
 
 export const NavListGroup = styled.ul`
-  list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  list-style: none;
+  @media (max-width: 1023px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+  }
 `;
 
 export const NavListItem = styled.li`
@@ -490,13 +496,12 @@ export const FooterSection = styled.section`
 `;
 
 export const HR = styled.hr`
-  display: none;
+  width: 81%;
+  margin: auto;
   @media (min-width: 1024px) {
     display: block;
     opacity: 0.25;
     border-color: rgb(88, 170, 176);
-    width: 81%;
-    margin: auto;
   }
 `;
 
