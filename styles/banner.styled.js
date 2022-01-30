@@ -497,3 +497,173 @@ export const HR = styled.hr`
     margin: auto;
   }
 `;
+
+
+export const TreatmentHeading = styled.div`
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+width: 100%;
+flex-basis: 100%;
+flex-shrink: 1;
+box-sizing: border-box;
+flex-grow: 1;
+max-width: 100%;
+order: 1;
+@media (min-width: 768px) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  flex-basis: 83.33333333333334%;
+  max-width: 83.33333333333334%;
+}
+@media (min-width: 1024px) {
+  order: 0;
+  flex-basis: 66.66666666666666%;
+  max-width: 66.66666666666666%;
+}
+> h1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.023em;
+  color: rgb(27, 27, 27);
+  text-align: left;
+  font-family: 'Playfair_Display', 'Arimo', serif;
+  overflow-wrap: break-word;
+  @media (min-width: 768px) {
+    font-size: 38px;
+    margin-bottom: 32px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 44px;
+  }
+}
+`;
+
+// Temp shit begin here
+export const TempWrapper = styled.div`
+  display: flex;
+  // grow
+  // shrink
+  // basis
+`;
+// Temp shit ends here
+
+export const TreatmentWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  vertical-align: middle;
+  flex-basis: 100%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+  }
+`;
+
+// export const TreatmentContentWrapper = styled.div`
+// display: flex;
+//   order: 0;
+//   flex-grow: 1;
+//   flex-shrink: 1;
+//   box-sizing: border-box;
+//   flex-basis: 100%;
+//   padding-left: 12px;
+//   @media (min-width: 768px) {
+//     padding-top: 0px;
+//     padding-bottom: 0px;
+//     order: 1;
+//     flex-basis: 83.33333333333334%;
+//     max-width: 83.33333333333334%;
+//     text-align: left;
+//   }  
+//   @media (min-width: 1024px) {
+//     order: 1;
+//     flex-basis: 33.33333333333333%;
+//     max-width: 33.33333333333333%;
+//     text-align: left;
+//   }
+// `;
+
+export const TreatmentLogo = styled.figure`
+  order: 0;
+  border-radius: 0px;
+  vertical-align: middle;
+  @media (min-width: 768px) {
+    > img {
+      max-width: 100%;
+      width: 100%;
+      flex-basis: 43.33333333333334%;
+      max-width: 43.33333333333334%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 0 24px 0;
+    }
+  }
+  @media (min-width: 1024px) {
+    order: 1;
+    max-width: 63.33333333333333%;
+    flex-basis: 63.33333333333334%;
+    aspect-ratio: 1.8719512195121952 / 1;
+    width: 100%;
+    padding: 0 0 0 24px;
+    > img {
+      max-width: 63.33333333333333%;
+      flex-basis: 63.33333333333334%;
+      // aspect-ratio: 1.8719512195121952 / 1;
+      width: 100%;
+      // padding: 0 0 0 24px;
+    }
+  }
+`;
+
+export const TreatmentDescription = styled.div`
+  order: 1;
+  // max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px 0 0 0;
+  @media (min-width: 1024px) {
+    order: 0;
+    width: 100%;
+    padding: 0 24px 0 0;
+  }
+
+  // display: flex;
+  // flex-wrap: wrap;
+  // flex-direction: row;
+  // box-sizing: border-box;
+  // text-align: left;
+  // justify-content: center;
+  // font-size: 16px;
+  // @media (min-width: 768px) {
+  //   margin-top: 0px;
+  //   margin-bottom: 0px;
+  // }
+  // > span {
+  //   color: rgb(94, 94, 94);
+  //   line-height: 1.5;
+  //   overflow-wrap: break-word;
+  //   word-wrap: break-word;
+  //   font-family: 'Open Sans', 'Arimo', sans-serif;
+  //   letter-spacing: normal;
+  //   text-align: left;
+  //   padding-right: 24px;
+  // }
+  // >figure {
+  //   padding-left: 24px;
+  //   > img {
+  //     aspect-ratio: 1.8719512195121952 / 1;
+  //     border-radius: 0px;
+  //     vertical-align: middle;
+  //     max-width: 100%;
+  //     margin-left: auto;
+  //     margin-right: auto;
+  //     width: 100%;
+  //   }
+  // }
+`;
