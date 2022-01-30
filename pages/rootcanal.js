@@ -12,22 +12,13 @@ export default function RootCanal() {
           </TreatmentHeading>
           <TreatmentWrapper>
             <TreatmentDescription>
-              <span>A dental implant is a replacement for one or more teeth which acts as a permanent tooth. Implants are permanent and long-term solutions for people suffering from missing teeth, chronic dental problems, falling teeth. Dental implants are associated with different grafting methods such as bone grafting. For dental implantation procedure involves an oral surgery to prepare a place for the implantation. After a few days of oral surgery, implantation is done. In some cases, according to the condition the tooth/teeth are implanted known as “Immediate Implantation” </span>
+              <span>Root canal treatment also known as endodontic therapy, is a dental treatment for removing infection from inside a tooth. It can also protect the tooth from future infections.It is carried out in the pulp of the tooth.
+Root Canal is the procedure that ends mostly in 1 sitting which would take 30-90 minutes, depending on the condition of the tooth. In adverse cases, it may take 2-3 sittings as well.</span>
             </TreatmentDescription>
             <TreatmentLogo>
-              <img src="/dental-implant.jpeg" />
+              <img src="/rootcanal.jpeg" />
             </TreatmentLogo>
           </TreatmentWrapper>
-          {/* <Temp>
-            <TreatmentContentWrapper>
-              <TreatmentDescription>
-                <span>A dental implant is a replacement for one or more teeth which acts as a permanent tooth. Implants are permanent and long-term solutions for people suffering from missing teeth, chronic dental problems, falling teeth. Dental implants are associated with different grafting methods such as bone grafting. For dental implantation procedure involves an oral surgery to prepare a place for the implantation. After a few days of oral surgery, implantation is done. In some cases, according to the condition the tooth/teeth are implanted known as “Immediate Implantation” </span>
-              </TreatmentDescription>
-              <figure>
-                  <img src="/dental-implant.jpeg"/>
-                </figure>
-            </TreatmentContentWrapper>
-          </Temp> */}
         </SectionItem>
       </SectionGroup>
     </>
