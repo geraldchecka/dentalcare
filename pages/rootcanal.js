@@ -1,5 +1,6 @@
 import Layout from '../components/layout';
 import { SectionGroup, SectionItem, TreatmentWrapper, TreatmentHeading, TreatmentDescription, TreatmentLogo } from '../styles/banner.styled';
+import Footer from '../components/footer';
 
 export default function RootCanal() {
   return (
@@ -21,6 +22,7 @@ Root Canal is the procedure that ends mostly in 1 sitting which would take 30-90
           </TreatmentWrapper>
         </SectionItem>
       </SectionGroup>
+      <Footer />
     </>
   );
 }
