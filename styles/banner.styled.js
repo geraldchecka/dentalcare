@@ -556,6 +556,24 @@ export const TreatmentWrapper = styled.div`
   }
 `;
 
+export const DocName = styled.h4`
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+`;
+
+export const DocNameSub = styled.h4`
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+`;
+
 export const TreatmentLogo = styled.figure`
   order: 0;
   border-radius: 0px;
