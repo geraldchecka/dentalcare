@@ -7,7 +7,7 @@ export default function Layout() {
   return (
     <>
       <GlobalStyle />
-      <Banner />
+      {/* <Banner /> */}
       <Header />
       <HR />
     </>

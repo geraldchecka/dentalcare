@@ -38,11 +38,6 @@ const Header = function({ src, id }) {
             </Link>
           </NavListItem>
           <NavListItem>
-            <Link href='/appointment' passHref>
-              <a>Make an appointment</a>
-            </Link>
-          </NavListItem>
-          <NavListItem>
             <Link href='/our-team' passHref>
               <a>Our Team</a>
             </Link>
