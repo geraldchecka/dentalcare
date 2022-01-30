@@ -7,10 +7,10 @@ export default function OurTeam() {
     <>
       <Layout showDetails/>
       <SectionGroup>
-        <SectionItem>
-          <TreatmentHeading>
-            <h1>Our Team</h1>
-          </TreatmentHeading>
+        <TreatmentHeading>
+          <h1>Our Team</h1>
+        </TreatmentHeading>
+        <SectionItem withShadow>
           <DocName>DR. Poornima K K </DocName>
           <TreatmentWrapper>
             <TreatmentDescription>
@@ -21,7 +21,7 @@ export default function OurTeam() {
             </TreatmentLogo>
           </TreatmentWrapper>
         </SectionItem>
-        <SectionItem>
+        <SectionItem withShadow>
           <TreatmentHeading>
           </TreatmentHeading>
           <DocName>DR. HRISHIKESH BHOWMICK</DocName>
@@ -38,7 +38,7 @@ Qualification: BDS, MDS, FCMFS.</span>
             </TreatmentLogo>
           </TreatmentWrapper>
         </SectionItem>
-        <SectionItem>
+        <SectionItem withShadow>
           <TreatmentHeading>
           </TreatmentHeading>
           <DocName>DR. Ashita Talwar</DocName>
@@ -52,7 +52,7 @@ Qualification: BDS, MDS, FCMFS.</span>
             </TreatmentLogo>
           </TreatmentWrapper>
         </SectionItem>
-        <SectionItem>
+        <SectionItem withShadow>
           <TreatmentHeading>
           </TreatmentHeading>
           <DocName>DR. Nivedan</DocName>
@@ -68,7 +68,7 @@ Specilalist in Removable & Fixed partial Dentures,Crowns and Bridges,Veneers,Smi
             </TreatmentLogo>
           </TreatmentWrapper>
         </SectionItem>
-        <SectionItem>
+        <SectionItem withShadow>
           <TreatmentHeading>
           </TreatmentHeading>
           <DocName>DR. Ankita Khandelwal</DocName>
@@ -85,7 +85,7 @@ She also excels in esthetic procedures including tooth whitening, smile designin
             </TreatmentLogo>
           </TreatmentWrapper>
         </SectionItem>
-        <SectionItem>
+        <SectionItem withShadow>
           <TreatmentHeading>
           </TreatmentHeading>
           <DocName>DR. Suraj V Raikar</DocName>

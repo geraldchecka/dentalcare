@@ -96,6 +96,7 @@ export const SectionItem = styled.section`
   margin-top: 40px;
   letter-spacing: normal;
   position: relative;
+  ${({ withShadow }) => (withShadow ? 'box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; padding: 40px;' : '')}
 `;
 
 export const IntroBanner = styled.div`
@@ -501,44 +502,45 @@ export const HR = styled.hr`
 
 
 export const TreatmentHeading = styled.div`
-display: flex;
-align-items: flex-start;
-flex-direction: column;
-width: 100%;
-flex-basis: 100%;
-flex-shrink: 1;
-box-sizing: border-box;
-flex-grow: 1;
-max-width: 100%;
-order: 1;
-@media (min-width: 768px) {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  flex-basis: 83.33333333333334%;
-  max-width: 83.33333333333334%;
-}
-@media (min-width: 1024px) {
-  order: 0;
-  flex-basis: 66.66666666666666%;
-  max-width: 66.66666666666666%;
-}
-> h1 {
-  font-size: 32px;
-  margin-bottom: 24px;
-  line-height: 1.2;
-  letter-spacing: 0.023em;
-  color: rgb(27, 27, 27);
-  text-align: left;
-  font-family: 'Playfair_Display', 'Arimo', serif;
-  overflow-wrap: break-word;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  flex-basis: 100%;
+  flex-shrink: 1;
+  box-sizing: border-box;
+  flex-grow: 1;
+  max-width: 100%;
+  order: 1;
   @media (min-width: 768px) {
-    font-size: 38px;
-    margin-bottom: 32px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    flex-basis: 83.33333333333334%;
+    max-width: 83.33333333333334%;
   }
-  @media (min-width: 1280px) {
-    font-size: 44px;
+  @media (min-width: 1024px) {
+    order: 0;
+    flex-basis: 66.66666666666666%;
+    max-width: 66.66666666666666%;
   }
-}
+  > h1 {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.023em;
+    color: rgb(27, 27, 27);
+    text-align: left;
+    font-family: 'Playfair_Display', 'Arimo', serif;
+    overflow-wrap: break-word;
+    @media (min-width: 768px) {
+      font-size: 38px;
+      margin-bottom: 32px;
+    }
+    @media (min-width: 1280px) {
+      font-size: 44px;
+    }
+  }
 `;
 
 export const TreatmentWrapper = styled.div`
