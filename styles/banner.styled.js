@@ -204,6 +204,7 @@ export const IntroBannerTextBlock = styled.div`
 export const MainLogo = styled.figure`
   padding: 0 24px;
   width: auto;
+  cursor: pointer;
   @media (max-width: 767px) {
     padding: 0;
     width: 70%
