@@ -4,7 +4,7 @@ export const Header = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   box-sizing: border-box;
   color: #000;
   font-family: 'Open Sans', sans-serif;
@@ -20,8 +20,15 @@ export const Header = styled.header`
 `;
 
 export const Image = styled.img`
-  width: 20px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  vertical-align: middle;
+`;
+
+export const BannerText = styled.span`
+  margin: 10px 20px;
+  vertical-align: middle;
 `;
 
 // export const LogoImage = styled.img``;

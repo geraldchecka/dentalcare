@@ -1,12 +1,23 @@
 import VectoredImage from "./atoms/vectoredImage";
-import { Header, BannerMessage } from '../styles/banner.styled';
+import { Header, BannerMessage, BannerText } from '../styles/banner.styled';
 
 const Banner = function() {
   return (
     <Header>
-      <VectoredImage id="prefix-img" src="TinyVetch" />
-      <BannerMessage>get a free check-up for new patients!</BannerMessage>
-      <VectoredImage id="postfix-img" src="SandLily" />
+      <BannerMessage>
+        <div style={{ display: 'inline-block' }}>
+          <VectoredImage id="prefix-img" src="phone" />
+          <BannerText>
+            +91-8147540263
+          </BannerText>
+        </div>
+        <div style={{ display: 'inline-block' }}>
+          <VectoredImage id="prefix-img" src="hospital-building" />
+          <BannerText showLeftSpacing>
+            Bommasandra Industrial Area, Bommasandra, Karnataka 560099
+          </BannerText>
+        </div>
+      </BannerMessage>
     </Header>
   )
 };
