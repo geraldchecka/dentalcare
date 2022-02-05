@@ -506,6 +506,15 @@ export const HR = styled.hr`
   }
 `;
 
+export const Whatsapp = styled.img`
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  width: 60px;
+  z-index: 2;
+  cursor: pointer;
+`;
+
 
 export const TreatmentHeading = styled.div`
   display: flex;
