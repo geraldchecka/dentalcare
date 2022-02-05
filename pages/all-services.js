@@ -105,12 +105,12 @@ export default function AllServices() {
                 <IntroCard>
                   <IntroCardBlock withImage>
                     <CardImageBlock>
-                      <img src='/tooth-extraction.jpeg' />
+                      <img src='/laser-gum.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Laser Gum Treatment</IntroCardTitle>
                     {/* <IntroCardDescription hasBottomMargin>By using the cutting edge research and tools, we make sure your time with us is as comfortable and stress-free as possible.</IntroCardDescription> */}
                     <IntroCardButton>
-                      <Link href='/extraction-and-impaction' passHref>
+                      <Link href='/laser-gum-treatment' passHref>
                         <a>Learn more</a>
                       </Link>
                     </IntroCardButton>
