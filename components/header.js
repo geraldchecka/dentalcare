@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { BlockHeader, MainBlock, Close, HamburgerMenu, MainLogo, MainNav, NavListGroup, NavListItem, HamburgerOptions } from '../styles/banner.styled';
 import { useState } from 'react';
+import CustomDropDown from './custom-dropdown';
 
 const SvgComponent = (props) => (
   <svg
@@ -14,6 +15,33 @@ const SvgComponent = (props) => (
     <path d="M2 5v2h20V5H2zm0 6v2h20v-2H2zm0 6v2h20v-2H2z" />
   </svg>
 )
+
+// function Menu() {
+//   return (
+//     <Dropdown>
+//       <DropdownTrigger>Services</DropdownTrigger>
+//       <DropdownContent>
+//         <ul>
+//           <li>
+//             <Link href='/rootcanal' passHref>
+//               <a>Root Canal</a>
+//             </Link>
+//           </li>
+//           <li>
+//             <Link href='/rootcanal' passHref>
+//               <a>Root Canal</a>
+//             </Link>
+//           </li>
+//           <li>
+//             <Link href='/rootcanal' passHref>
+//               <a>Root Canal</a>
+//             </Link>
+//           </li>
+//         </ul>
+//       </DropdownContent>
+//     </Dropdown>
+//   );
+// }
 
 const Header = function({ src, id }) {
   const [showHamMenu, setHamMenu] = useState(false);
@@ -46,9 +74,10 @@ const Header = function({ src, id }) {
             </Link>
           </NavListItem>
           <NavListItem>
-            <Link href='/all-services' passHref>
+            {/* <Link href='/all-services' passHref>
               <a>Services</a>
-            </Link>
+            </Link> */}
+            <CustomDropDown />
           </NavListItem>
           <NavListItem>
             <Link href='/our-team' passHref>
