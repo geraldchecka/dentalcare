@@ -250,12 +250,6 @@ export const IntroBannerTextBlock = styled.div`
   }
 `;
 
-// font-size: 38px;
-// font-family: 'Playfair_Display', sans-serif;
-// @media (max-width: 767px) {
-//   font-size: 32px;
-// }
-
 export const MainLogo = styled.figure`
   padding: 0 24px;
   width: auto;
@@ -270,7 +264,7 @@ export const HamburgerMenu = styled.div`
   box-sizing: border-box;
   padding: 6px;
   display: none;
-  padding-right: 50px;
+  padding-right: 100px;
   width: 40px;
   height: 40px;
   cursor: pointer;
