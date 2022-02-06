@@ -122,7 +122,7 @@ export const NavListItem = styled.li`
       `;
     }
     return `
-      font-size: 14px;
+      font-size: 16px;
       line-height: 24px;
       white-space: nowrap;
       padding: 6px 6px 6px 32px;
