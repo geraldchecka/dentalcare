@@ -1,5 +1,24 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+
+function useOutsideAlerter(ref, cb) {
+  useEffect(() => {
+    /**
+     * Alert if clicked on outside of element
+     */
+    function handleClickOutside(event) {
+      if (ref.current && !ref.current.contains(event.target)) {
+        cb();
+      }
+    }
+    // Bind the event listener
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      // Unbind the event listener on clean up
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [ref]);
+}
 
 export default function CustomDropDown() {
   const [ items, setItems ] = useState([
@@ -25,7 +44,7 @@ export default function CustomDropDown() {
     },
     { 
       value: "Dentures",
-      id: 5,
+      id: 12,
       href: "/dentures",
     },
     { 
@@ -60,16 +79,26 @@ export default function CustomDropDown() {
     },
   ]);
   const [ showItems, setShowItems] = useState(false);
-  // const [ selection, setSelection] = useState();
+  const wrapperRef = useRef(null);
+  useOutsideAlerter(wrapperRef, dropDownOutsideClick);
 
   function dropDown() {
     setShowItems((state) => !state);
   }
 
+  function dropDownOutsideClick() {
+    setShowItems((state) => {
+      if (state === true) {
+        return !state;
+      }
+      return state;
+    });
+  }
+
   let showClass = showItems === true ? 'select-box--arrow-up' : 'select-box--arrow-down';
 
   return (
-    <div className="select-box--box" onClick={dropDown}>
+    <div className="select-box--box" onClick={dropDown} ref={wrapperRef}>
       <div className="select-box--container">
         <div className="select-box--selected-item">All Services</div>
         <div className="select-box--arrow"><span className={showClass}></span></div>

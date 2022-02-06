@@ -45,6 +45,10 @@ const GlobalStyle = createGlobalStyle`
   .select-box--box {
     width: 200px;
   }
+
+  .select-box--box:hover {
+    cursor: pointer;
+  }
   
   .select-box--selected-item {
     display: inline-block;
