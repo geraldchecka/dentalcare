@@ -75,7 +75,14 @@ function MapContainer({ google }) {
           >
             <div>
               <h2>{selectedPlace.name}</h2>
-              <span>Bommasandra Industrial Area, Bommsandra, Karnataka</span>
+              <pre>
+                145-N, 1st Main Road
+                Near Priyadarshini Petrol Bunk
+                Bommasandra Industrial Area, Bommasandra,
+                Bengaluru, 560099
+                Karnataka
+                India
+              </pre>
             </div>
           </InfoWindow>
         </Map>
@@ -85,7 +92,7 @@ function MapContainer({ google }) {
 }
 
 const GAW = GoogleApiWrapper({
-  apiKey: 'AIzaSyCG18M1HoDrvD5BsO0LENN7a9TWwQdq7Fg'
+  apiKey: 'AIzaSyCHzb46TJYTIGP_y0TNNQxVSZQFjgseQiM'
 })(MapContainer);
 
 
@@ -97,10 +104,28 @@ export default function ContactUs() {
         <SectionItem>
           <TreatmentHeading>
             <h1>Contact Us</h1>
+            <p>TIMINGS:</p>
+            <pre style={{ marginBottom: "20px" }}>
+              MONDAY - SATURDAY: 10:30AM - 2:30PM; 4:45PM - 8:30PM
+              SUN:10:30AM - 2PM
+            </pre>
+            <p>Reach us on:</p>
+            <pre style={{ marginBottom: "20px" }}>
+              +91-9353912970
+              +91-8147540263
+            </pre>
           </TreatmentHeading>
           <TreatmentWrapper>
             <TreatmentDescription>
-              <span>Location Required</span>
+              <p>ADDRESS</p>
+              <pre style={{ marginBottom: "20px" }}>
+                145-N, 1st Main Road
+                Near Priyadarshini Petrol Bunk
+                Bommasandra Industrial Area, Bommasandra,
+                Bengaluru, 560099
+                Karnataka
+                India
+              </pre>
               <GAW />
             </TreatmentDescription>
             {/* <TreatmentLogo>

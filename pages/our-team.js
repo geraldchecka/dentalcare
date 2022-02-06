@@ -28,7 +28,7 @@ export default function OurTeam() {
           <DocNameSub>ORAL SURGEON  AND IMPLANTOLOGIST</DocNameSub>
           <TreatmentWrapper>
             <TreatmentDescription>
-              <span>He completed his Master of Dental Surgery from Rajiv Gandhi University of Health Sciences, Karnataka. M.R Ambedkar dental college and hospital. Completed Fellowship in Cranio-Maxillofacial Surgery under Dr.Paul C Salins in Mazumdar Shaw Medical Center (Narayana Hrudayalaya), Bangalore, recognized by Rajiv Gandhi University of Health Sciences.
+              <span>Dr. Hrishikesh completed his Master of Dental Surgery from Rajiv Gandhi University of Health Sciences, Karnataka. M.R Ambedkar dental college and hospital. Completed Fellowship in Cranio-Maxillofacial Surgery under Dr.Paul C Salins in Mazumdar Shaw Medical Center (Narayana Hrudayalaya), Bangalore, recognized by Rajiv Gandhi University of Health Sciences.
 9 Years of Experience
 Specialized in: FACIAL TRAUMA, Cleft Lip and Palate Surgeries, Orthognathic Surgery, Benign facial and Jaw Tumours, Implantology, Minor Oral Surgery
 Qualification: BDS, MDS, FCMFS.</span>
@@ -45,7 +45,7 @@ Qualification: BDS, MDS, FCMFS.</span>
           {/* <DocNameSub>ORAL SURGEON  AND IMPLANTOLOGIST</DocNameSub> */}
           <TreatmentWrapper>
             <TreatmentDescription>
-              <span>She completed her Master of Dental Surgery from M.S.Ramaiah University of Applied Sciences, Rajiv Gandhi University of Health Sciences, Karnataka.She has 9 years of experience and is specialised in: Fixed Orthodontics, Damon System, Self-Ligating Systems, Clear Aligner Technology, Myofunctional Therapy and Growth Modulation, Interceptive and Preventive Orthodontics and mini-implants.</span>
+              <span>Dr. Ashita completed her Master of Dental Surgery from M.S.Ramaiah University of Applied Sciences, Rajiv Gandhi University of Health Sciences, Karnataka.She has 9 years of experience and is specialised in: Fixed Orthodontics, Damon System, Self-Ligating Systems, Clear Aligner Technology, Myofunctional Therapy and Growth Modulation, Interceptive and Preventive Orthodontics and mini-implants.</span>
             </TreatmentDescription>
             <TreatmentLogo>
               <img src="/ashita.jpeg" />
@@ -59,7 +59,7 @@ Qualification: BDS, MDS, FCMFS.</span>
           {/* <DocNameSub>ORAL SURGEON  AND IMPLANTOLOGIST</DocNameSub> */}
           <TreatmentWrapper>
             <TreatmentDescription>
-              <span>Dr.Nivedan has 10 years of Clinical Experience in the field of Dentistry,Specilalises in Prosthodontics,Implantology.
+              <span>Dr. Nivedan has 10 years of Clinical Experience in the field of Dentistry,Specilalises in Prosthodontics,Implantology.
 
 Specilalist in Removable & Fixed partial Dentures,Crowns and Bridges,Veneers,Smile Makeovers and so on.</span>
             </TreatmentDescription>
@@ -75,7 +75,7 @@ Specilalist in Removable & Fixed partial Dentures,Crowns and Bridges,Veneers,Smi
           {/* <DocNameSub>ORAL SURGEON  AND IMPLANTOLOGIST</DocNameSub> */}
           <TreatmentWrapper>
             <TreatmentDescription>
-              <span>Dr Ankita Khandelwal, MDS Conservative dentistry and Endodontics, has been providing her services as an Endodontist and Cosmetic Dentist for past 7 years.
+              <span>Dr. Ankita Khandelwal, MDS Conservative dentistry and Endodontics, has been providing her services as an Endodontist and Cosmetic Dentist for past 7 years.
 
 She has been successfully performing painless root canal treatment in single visit in our center. Her effective and eminent protocol for treatment planning and execution make the whole procedure class apart.
 She also excels in esthetic procedures including tooth whitening, smile designing, laminates helpful in completely transforming patient smiles.</span>
@@ -92,7 +92,7 @@ She also excels in esthetic procedures including tooth whitening, smile designin
           {/* <DocNameSub>ORAL SURGEON  AND IMPLANTOLOGIST</DocNameSub> */}
           <TreatmentWrapper>
             <TreatmentDescription>
-              <span>Dr Suraj V Raikar, is Periodontist and Implantogist, currently working as a consultant in Narayana Hrudayalaya and is a visiting Consultant at Sri Sumukha dental care.He is specialised in Laser dentistry, Periodontal Flap Surgery, Laser Gingivoplasty, Bleeding gums Treatment and Dental Implants.</span>
+              <span>Dr. Suraj V Raikar, is Periodontist and Implantogist, currently working as a consultant in Narayana Hrudayalaya and is a visiting Consultant at Sri Sumukha dental care.He is specialised in Laser dentistry, Periodontal Flap Surgery, Laser Gingivoplasty, Bleeding gums Treatment and Dental Implants.</span>
             </TreatmentDescription>
             <TreatmentLogo>
               <img src="/suraj.jpeg" />
