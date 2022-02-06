@@ -643,6 +643,8 @@ export const TreatmentWrapper = styled.div`
     max-width: 100%;
     width: 100%;
   }
+  font-family: 'Open Sans', 'Arimo', sans-serif;
+  font-size: 16px;
 `;
 
 export const DocName = styled.h4`
@@ -703,6 +705,8 @@ export const TreatmentDescription = styled.div`
     width: 100%;
     padding: 0 24px 0 0;
   }
+  font-family: 'Open Sans', 'Arimo', sans-serif;
+  font-size: 16px;
 `;
 
 export const QuickButton = styled.button`

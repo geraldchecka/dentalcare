@@ -104,28 +104,30 @@ export default function ContactUs() {
         <SectionItem>
           <TreatmentHeading>
             <h1>Contact Us</h1>
-            <p>TIMINGS:</p>
-            <pre style={{ marginBottom: "20px" }}>
-              MONDAY - SATURDAY: 10:30AM - 2:30PM; 4:45PM - 8:30PM
-              SUN:10:30AM - 2PM
-            </pre>
-            <p>Reach us on:</p>
-            <pre style={{ marginBottom: "20px" }}>
-              +91-9353912970
-              +91-8147540263
-            </pre>
           </TreatmentHeading>
           <TreatmentWrapper>
             <TreatmentDescription>
-              <p>ADDRESS</p>
-              <pre style={{ marginBottom: "20px" }}>
+            <p><b>TIMINGS:</b></p>
+            <p style={{ marginBottom: "20px" }}>
+              MONDAY - SATURDAY: 10:30AM - 2:30PM; 4:45PM - 8:30PM
+              SUN:10:30AM - 2PM
+            </p>
+            <p><b>Reach us on:</b></p>
+            <p style={{ marginBottom: "20px" }}>
+              +91-9353912970
+              +91-8147540263
+            </p>
+            </TreatmentDescription>
+            <TreatmentDescription>
+              <p><b>ADDRESS</b></p>
+              <p style={{ marginBottom: "20px" }}>
                 145-N, 1st Main Road
                 Near Priyadarshini Petrol Bunk
                 Bommasandra Industrial Area, Bommasandra,
                 Bengaluru, 560099
                 Karnataka
                 India
-              </pre>
+              </p>
               <GAW />
             </TreatmentDescription>
             {/* <TreatmentLogo>
@@ -134,7 +136,7 @@ export default function ContactUs() {
           </TreatmentWrapper>
         </SectionItem>
       </SectionGroup>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
