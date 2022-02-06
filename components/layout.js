@@ -2,7 +2,6 @@ import GlobalStyle from '../styles/global';
 import Banner from './banner';
 import Header from './header';
 import { HR, Whatsapp } from '../styles/banner.styled';
-import Link from 'next/link';
 
 export default function Layout() {
   return (

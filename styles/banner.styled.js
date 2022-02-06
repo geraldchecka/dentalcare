@@ -264,7 +264,7 @@ export const HamburgerMenu = styled.div`
   box-sizing: border-box;
   padding: 6px;
   display: none;
-  padding-right: 100px;
+  padding-right: 50px;
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -702,5 +702,35 @@ export const TreatmentDescription = styled.div`
     order: 0;
     width: 100%;
     padding: 0 24px 0 0;
+  }
+`;
+
+export const QuickButton = styled.button`
+  padding: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: 'Open Sans', 'Arimo', sans-serif;
+  letter-spacing: 1.4px;
+  width: 320px;
+  @media (max-width: 1023px) {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    padding: 15px;
+  }
+  border: 1px solid rgb(220,249,252);
+  background-color: rgb(220,249,252);
+  color: rgb(21, 21, 21);
+  border-radius: 10%;
+`;
+
+export const QuickConnectWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  @media (max-width: 1023px) {
+    flex-direction: column;
+    align-items: center;
   }
 `;
