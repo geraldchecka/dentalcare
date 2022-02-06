@@ -54,11 +54,14 @@ export const MainNav = styled.nav`
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 24px;
   display: block;
+  @media (max-width: 1023px) {
+    display: none;
+  }
   @media (min-width: 1024px) {
     display: block;
   }
-  margin-bottom: 24px;
 `;
 
 export const NavListGroup = styled.ul`
@@ -219,8 +222,19 @@ export const MainLogo = styled.figure`
 `;
 
 export const HamburgerMenu = styled.div`
+  box-sizing: border-box;
   padding: 6px;
-  display: inline-block;
+  display: none;
+  padding-right: 50px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  @media (max-width: 1023px) {
+    display: inline-block;
+  }
+  @media (min-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const BannerMessage = styled.div`

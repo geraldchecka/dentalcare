@@ -18,9 +18,9 @@ const Header = function({ src, id }) {
   return (
     <BlockHeader>
       <MainBlock>
-        {/* <HamburgerMenu>
-          <SvgComponent color="rgb(75, 148, 153)" width={18} />
-        </HamburgerMenu> */}
+        <HamburgerMenu>
+          <SvgComponent color="rgb(75, 148, 153)" width={32} />
+        </HamburgerMenu>
         <MainLogo>
           <Link href='/' passHref>
             <img src="/logo.png" alt="Sri Sumukha Dental Care" />
