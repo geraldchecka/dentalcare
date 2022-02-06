@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { BlockHeader, MainBlock, HamburgerMenu, MainLogo, MainNav, NavListGroup, NavListItem } from '../styles/banner.styled';
+import { BlockHeader, MainBlock, Close, HamburgerMenu, MainLogo, MainNav, NavListGroup, NavListItem, HamburgerOptions } from '../styles/banner.styled';
+import { useState } from 'react';
 
 const SvgComponent = (props) => (
   <svg
@@ -15,10 +16,20 @@ const SvgComponent = (props) => (
 )
 
 const Header = function({ src, id }) {
+  const [showHamMenu, setHamMenu] = useState(false);
+
+  function toggleHamburgerMenu() {
+    setHamMenu(true);
+  }
+
+  function closeHamburgerMenu() {
+    setHamMenu(false);
+  }
+
   return (
     <BlockHeader>
       <MainBlock>
-        <HamburgerMenu>
+        <HamburgerMenu onClick={toggleHamburgerMenu}>
           <SvgComponent color="rgb(75, 148, 153)" width={32} />
         </HamburgerMenu>
         <MainLogo>
@@ -56,6 +67,41 @@ const Header = function({ src, id }) {
           </NavListItem>
         </NavListGroup>
       </MainNav>
+      {
+        showHamMenu &&
+        <HamburgerOptions>
+          <Close onClick={closeHamburgerMenu}>
+            <img src="/close.png" alt="Sri Sumukha Dental Care" />
+          </Close>
+          <NavListGroup hamburger>
+            <NavListItem hamburger>
+              <Link href='/' passHref>
+                <a>home</a>
+              </Link>
+            </NavListItem>
+            <NavListItem hamburger>
+              <Link href='/all-services' passHref>
+                <a>Services</a>
+              </Link>
+            </NavListItem>
+            <NavListItem hamburger>
+              <Link href='/our-team' passHref>
+                <a>Our Team</a>
+              </Link>
+            </NavListItem>
+            <NavListItem hamburger>
+              <Link href='/our-goal' passHref>
+                <a>Our Goal</a>
+              </Link>
+            </NavListItem>
+            <NavListItem hamburger>
+              <Link href='/contactus' passHref>
+                <a>Contact Us</a>
+              </Link>
+            </NavListItem>
+          </NavListGroup>
+        </HamburgerOptions>
+      }
     </BlockHeader>
   );
 }

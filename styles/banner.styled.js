@@ -35,6 +35,7 @@ export const BannerText = styled.span`
 
 export const BlockHeader = styled.header`
   padding: 0 24px;
+  position: relative;
 `;
 
 export const MainBlock = styled.section`
@@ -65,25 +66,69 @@ export const MainNav = styled.nav`
 `;
 
 export const NavListGroup = styled.ul`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-  @media (max-width: 1023px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;  
+  ${({ hamburger }) => {
+    if (hamburger) {
+      return `
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        overflow: hidden;
+        font-family: 'Open Sans', 'Arimo', sans-serif;
+        font-size: 32px;
+        text-transform: uppercase;
+        height: 100%;
+        width: 100%;
+      `;
+    }
+    return `
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style: none;
+      @media (max-width: 1023px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+      }
+    `;
+  }}
+`;
+
+export const Close = styled.div`
+  float: right;
+  padding: 20px;
+  > img {
+    width: 40px;
+  }
+  &:hover {
+    cursor: pointer;
   }
 `;
 
 export const NavListItem = styled.li`
-  display: inline;
-  font-size: 14px;
-  line-height: 24px;
-  white-space: nowrap;
-  padding: 6px 6px 6px 32px;
-  letter-spacing: 3px;
+  display: inline-block;
+  ${({ hamburger }) => {
+    if (hamburger) {
+      return `
+        font-size: 32px;
+        line-height: 44px;
+        white-space: nowrap;
+        padding: 32px 0 0 0;
+        letter-spacing: 3px;
+        text-align: center;
+        width: 250px;
+      `;
+    }
+    return `
+      font-size: 14px;
+      line-height: 24px;
+      white-space: nowrap;
+      padding: 6px 6px 6px 32px;
+      letter-spacing: 3px;
+    `;
+  }}
   &:hover {
     color: rgb(56, 123, 127);
   }
@@ -235,6 +280,17 @@ export const HamburgerMenu = styled.div`
   @media (min-width: 1024px) {
     display: none;
   }
+`;
+
+export const HamburgerOptions = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(220,249,252);
+  color: rgb(21,21,21);
+  z-index: 3;
 `;
 
 export const BannerMessage = styled.div`
