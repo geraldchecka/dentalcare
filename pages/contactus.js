@@ -128,15 +128,15 @@ export default function ContactUs() {
                 Karnataka
                 India
               </p>
-              <GAW />
             </TreatmentDescription>
-            {/* <TreatmentLogo>
-              <img src="/dental-fillings.jpeg" />
-            </TreatmentLogo> */}
           </TreatmentWrapper>
         </SectionItem>
+        <SectionItem>
+          <div>
+            <GAW />
+          </div>
+        </SectionItem>
       </SectionGroup>
-      {/* <Footer /> */}
     </>
   );
 }
