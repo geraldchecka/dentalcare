@@ -296,7 +296,7 @@ export const BannerMessage = styled.div`
   text-align: center;
   color: rgb(22, 22, 22);
   font-family: "Open Sans", "Arimo", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 2px;
   line-height: 24px;
   margin-block-end: 0px;
