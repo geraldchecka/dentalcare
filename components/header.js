@@ -16,33 +16,6 @@ const SvgComponent = (props) => (
   </svg>
 )
 
-// function Menu() {
-//   return (
-//     <Dropdown>
-//       <DropdownTrigger>Services</DropdownTrigger>
-//       <DropdownContent>
-//         <ul>
-//           <li>
-//             <Link href='/rootcanal' passHref>
-//               <a>Root Canal</a>
-//             </Link>
-//           </li>
-//           <li>
-//             <Link href='/rootcanal' passHref>
-//               <a>Root Canal</a>
-//             </Link>
-//           </li>
-//           <li>
-//             <Link href='/rootcanal' passHref>
-//               <a>Root Canal</a>
-//             </Link>
-//           </li>
-//         </ul>
-//       </DropdownContent>
-//     </Dropdown>
-//   );
-// }
-
 const Header = function({ src, id }) {
   const [showHamMenu, setHamMenu] = useState(false);
 
