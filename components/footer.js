@@ -7,15 +7,15 @@ import { FooterBlock, FooterSection, SectionItem, SectionGroup } from '../styles
           <SectionItem>
             <FooterBlock>
               <FooterSection>
-                <p>
-                  TIMINGS:
+                <p><b>TIMINGS</b></p>
+                <p style={{ marginBottom: "20px" }}>
                   MONDAY - SATURDAY: 10:30AM - 2:30PM; 4:45PM - 8:30PM
                   SUN:10:30AM - 2PM
                 </p>
               </FooterSection>
               <FooterSection>
-                <p>
-                  ADDRESS:
+                <p><b>ADDRESS</b></p>
+                <p style={{ marginBottom: "20px" }}>
                   145-N, 1st Main Road
                   Near Priyadarshini Petrol Bunk
                   Bommasandra Industrial Area, Bommasandra,

@@ -20,7 +20,7 @@ export default function AllServices() {
               <IntroCards>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/rootcanal.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Single Sitting Root Canal</IntroCardTitle>
@@ -34,7 +34,7 @@ export default function AllServices() {
                 </IntroCard>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/dental_implants_small.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Dental Implants</IntroCardTitle>
@@ -48,7 +48,7 @@ export default function AllServices() {
                 </IntroCard>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/orthodontics.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Orthodontics</IntroCardTitle>
@@ -62,7 +62,7 @@ export default function AllServices() {
                 </IntroCard>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/dental-fillings.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Dental Fillings</IntroCardTitle>
@@ -76,7 +76,7 @@ export default function AllServices() {
                 </IntroCard>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/dentures.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Dentures</IntroCardTitle>
@@ -90,7 +90,7 @@ export default function AllServices() {
                 </IntroCard>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/tooth-extraction.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Exraction and Impaction</IntroCardTitle>
@@ -104,7 +104,7 @@ export default function AllServices() {
                 </IntroCard>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/laser-gum.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Laser Gum Treatment</IntroCardTitle>
@@ -118,7 +118,7 @@ export default function AllServices() {
                 </IntroCard>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/cosmetic-fillings.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Cosmetic Fillings</IntroCardTitle>
@@ -132,7 +132,7 @@ export default function AllServices() {
                 </IntroCard>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/dentalxrays.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Dental X-Rays</IntroCardTitle>
@@ -146,7 +146,7 @@ export default function AllServices() {
                 </IntroCard>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/dental-crowns.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Dental Crowns and Bridges</IntroCardTitle>
@@ -160,7 +160,7 @@ export default function AllServices() {
                 </IntroCard>
                 <IntroCard>
                   <IntroCardBlock withImage>
-                    <CardImageBlock>
+                    <CardImageBlock useAspectRatio>
                       <img src='/kids-dentistry.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Kids Dentistry</IntroCardTitle>

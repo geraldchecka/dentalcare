@@ -529,6 +529,7 @@ export const CardImageBlock = styled.figure`
     @media (max-width: 767px) {
       height: calc((100vw - 48px)/1);
     }
+    ${({ useAspectRatio }) => useAspectRatio ? 'aspect-ratio: 1;' : ''}
   }
 `;
 
