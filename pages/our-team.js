@@ -25,7 +25,6 @@ export default function OurTeam() {
           <TreatmentHeading>
           </TreatmentHeading>
           <DocName>DR. HRISHIKESH BHOWMICK</DocName>
-          <DocNameSub>ORAL SURGEON  AND IMPLANTOLOGIST</DocNameSub>
           <TreatmentWrapper>
             <TreatmentDescription>
               <span>Dr. Hrishikesh completed his Master of Dental Surgery from Rajiv Gandhi University of Health Sciences, Karnataka. M.R Ambedkar dental college and hospital. Completed Fellowship in Cranio-Maxillofacial Surgery under Dr.Paul C Salins in Mazumdar Shaw Medical Center (Narayana Hrudayalaya), Bangalore, recognized by Rajiv Gandhi University of Health Sciences.

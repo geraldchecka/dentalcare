@@ -2,7 +2,7 @@ import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 import Layout from '../components/layout';
 import { SectionGroup, SectionItem, TreatmentWrapper, TreatmentHeading, TreatmentDescription, TreatmentLogo } from '../styles/banner.styled';
 import Footer from '../components/footer';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 const mapStyles = {
   width: '100%',
@@ -25,27 +25,13 @@ function MapContainer({ google }) {
   }
 
   function onMarkerClick(props, marker, e) {
-    // debugger;
     setActiveMarker(marker);
     setSelectedPlace(props);
     setInfoWindow(true);
   }
 
-  // function idleDetect(props, x) {
-  //   debugger;
-  //   // setActiveMarker(marker);
-  //   // setSelectedPlace(props);
-  //   console.log(infoWindow);
-  //   setInfoWindow(true);
-  // }
-
-  // function markerRef (marker) {
-  //   debugger;
-  //   console.log(marker);
-  // }
-
   return (
-    <div style={{ height: '200px' }}>
+    <div style={{ height: '400px' }}>
       {/* {mapLoaded &&  */}
         <Map
           google={google}
@@ -78,7 +64,7 @@ function MapContainer({ google }) {
               <pre>
                 145-N, 1st Main Road
                 Near Priyadarshini Petrol Bunk
-                Bommasandra Industrial Area, Bommasandra,
+                Bommasandra Industrial Area,
                 Bengaluru, 560099
                 Karnataka
                 India
@@ -109,13 +95,16 @@ export default function ContactUs() {
             <TreatmentDescription>
             <p><b>TIMINGS:</b></p>
             <p style={{ marginBottom: "20px" }}>
-              MONDAY - SATURDAY: 10:30AM - 2:30PM; 4:45PM - 8:30PM
-              SUN:10:30AM - 2PM
+              MONDAY - SATURDAY
+              <p style={{ fontStyle: "italic" }}>10:30AM - 2:30PM</p>
+              <p style={{ fontStyle: "italic" }}>4:45PM - 8:30PM</p>
+              <p>SUNDAY</p>
+              <p style={{ fontStyle: "italic" }}>10:30AM - 2PM</p>
             </p>
             <p><b>Reach us on:</b></p>
             <p style={{ marginBottom: "20px" }}>
-              +91-9353912970
-              +91-8147540263
+              <p>+91-8147540263</p>
+              <p>+91-9353912970</p>
             </p>
             </TreatmentDescription>
             <TreatmentDescription>
@@ -123,7 +112,7 @@ export default function ContactUs() {
               <p style={{ marginBottom: "20px" }}>
                 145-N, 1st Main Road
                 Near Priyadarshini Petrol Bunk
-                Bommasandra Industrial Area, Bommasandra,
+                Bommasandra Industrial Area,
                 Bengaluru, 560099
                 Karnataka
                 India
@@ -131,12 +120,13 @@ export default function ContactUs() {
             </TreatmentDescription>
           </TreatmentWrapper>
         </SectionItem>
-        <SectionItem>
+        <SectionItem noMarginTop>
           <div>
             <GAW />
           </div>
         </SectionItem>
       </SectionGroup>
+      <Footer noFooterDetails/>
     </>
   );
 }
