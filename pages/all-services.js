@@ -119,7 +119,7 @@ export default function AllServices() {
                 <IntroCard>
                   <IntroCardBlock withImage>
                     <CardImageBlock useAspectRatio>
-                      <img src='/cosmetic-fillings.jpeg' />
+                      <img src='/cosmetic-fillings-new.jpeg' />
                     </CardImageBlock>
                     <IntroCardTitle autoHeight>Cosmetic Fillings</IntroCardTitle>
                     {/* <IntroCardDescription hasBottomMargin>By using the cutting edge research and tools, we make sure your time with us is as comfortable and stress-free as possible.</IntroCardDescription> */}
