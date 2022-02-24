@@ -733,10 +733,52 @@ export const QuickButton = styled.button`
 export const QuickConnectWrapper = styled.div`
   width: 100%;
   display: flex;
+  height: 300px;
   justify-content: space-around;
   flex-direction: row;
   @media (max-width: 1023px) {
     flex-direction: column;
     align-items: center;
+  }
+`;
+
+export const CarouselItem = styled.div`
+  color: rgb(94,94,94);
+  width: calc(100%/2);
+  > * {
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  > div {
+    height: 250px;
+    background-color: rgb(220,249,252);
+    display: flex;
+    border-radius: 10px;
+    flex-flow: column nowrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 25px;
+    margin: 30px;
+    > h4 {
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 600;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      margin-top: 20px;
+    }
+    > p {
+      font-size: 14px;
+      font-weight: 500;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.5;
+    }
+  }
+  
+  @media(max-width: 1150px) {
+      width: 100%
   }
 `;
