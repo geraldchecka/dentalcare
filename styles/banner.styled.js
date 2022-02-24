@@ -718,6 +718,7 @@ export const QuickButton = styled.button`
   font-family: 'Open Sans', 'Arimo', sans-serif;
   letter-spacing: 1.4px;
   width: 320px;
+  // height: 100px;
   @media (max-width: 1023px) {
     flex-direction: column;
     align-items: center;
@@ -733,7 +734,6 @@ export const QuickButton = styled.button`
 export const QuickConnectWrapper = styled.div`
   width: 100%;
   display: flex;
-  height: 300px;
   justify-content: space-around;
   flex-direction: row;
   @media (max-width: 1023px) {
